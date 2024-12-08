@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Vite
+dist/
+*.env.local
+*.env.*
+!.env.example
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
